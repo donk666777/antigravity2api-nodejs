@@ -12,7 +12,7 @@ RUN npm ci --only=production
 COPY . .
 
 # 复制 .env.example 为默认 .env
-RUN cp .env.example .env
+# RUN cp .env.example .env
 
 # 创建数据和图片目录
 RUN mkdir -p data public/images
