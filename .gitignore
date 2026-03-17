@@ -9,11 +9,10 @@ node_modules/
 logs/
 
 # 环境变量
-.env
 .env.local
 
 # 配置文件（用户自定义）
-config.json
+
 
 # 系统文件
 .DS_Store
